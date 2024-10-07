@@ -25,7 +25,7 @@ def main():
         def topsis(input_file, weights, impacts, output_file):
             try:
                 if not os.path.exists(input_file):
-                  raise FileNotFoundError("Input File not found.")
+                  raise FileNotFoundError("Input File: Not found")
             except FileNotFoundError as e:
                 print(e)
                 exit(1)
